@@ -1,5 +1,5 @@
 var express = require('express');
-var bodyParser = require('body-parser');
+// var bodyParser = require('body-parser');
 var app = express();
 
 var quotes = [
@@ -10,7 +10,7 @@ var quotes = [
   { author : 'Unknown', quote: "A person without a sense of humor is like a wagon without springs. It's jolted by every pebble on the road."}
 ];
 
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
   res.json(quotes);
@@ -32,20 +32,20 @@ app.get('/quote/:id', function(req, res) {
   res.json(q);
 });
 
-app.post('/quote', function(req, res) {
-  if(!req.body.hasOwnProperty('author') || !req.body.hasOwnProperty('quote')) {
-    res.statusCode = 400;
-    return res.send('Post syntax incorrect.');
-  }
+// app.post('/quote', function(req, res) {
+//   if(!req.body.hasOwnProperty('author') || !req.body.hasOwnProperty('quote')) {
+//     res.statusCode = 400;
+//     return res.send('Post syntax incorrect.');
+//   }
 
-  var newQuote = {
-    author : req.body.author,
-    quote : req.body.quote
-  };
+//   var newQuote = {
+//     author : req.body.author,
+//     quote : req.body.quote
+//   };
 
-  quotes.push(newQuote);
-  res.json(true);
-});
+//   quotes.push(newQuote);
+//   res.json(true);
+// });
 
 app.delete('/quote/:id', function(req, res) {
   quotes.splice(req.params.id, 1);
