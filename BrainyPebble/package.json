@@ -1,0 +1,12 @@
+{
+  "name": "brainy-pebble-express",
+  "private" : true,
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main" : "quote.js"
+}
