@@ -7,7 +7,7 @@ var xhrRequest = function (url, type, callback) {
   xhr.send();
 };
 
-function getQuotes(pos) {
+function getQuotes() {
   // Construct URL
   var url = 'https://cherry-sundae-1584.herokuapp.com/quote/random';
 
