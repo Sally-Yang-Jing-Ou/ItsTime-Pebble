@@ -1,0 +1,22 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "sally_auyoung@hotmail.com",
+    "longName": "Time",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Time",
+    "targetPlatforms": [
+        "chalk"
+    ],
+    "uuid": "5de332f0-ef08-4933-938c-df63f5ae2eb2",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
