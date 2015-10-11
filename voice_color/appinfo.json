@@ -1,0 +1,24 @@
+{
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Sally",
+    "longName": "Voice Color",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Voice Color",
+    "targetPlatforms": [
+        "chalk"
+    ],
+    "uuid": "0cdd303f-7bf0-4901-84b7-8ad5019f1304",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
