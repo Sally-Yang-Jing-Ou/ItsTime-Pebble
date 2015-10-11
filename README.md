@@ -24,3 +24,21 @@ Screenshots
 --------
 
 ![Time] (screenshots/Screenshot-timeWeather.png)
+
+### 3. Personal Round
+
+Pebble Watchface made to match the color of my band...
+
+Screenshots
+--------
+
+![Personal] (screenshots/Screenshot-personal.jpeg)
+
+### 4. Voice Color
+
+Change color of watchface using dictation
+
+Screenshots
+--------
+
+![Voice] (screenshots/Screenshot-voice.png)
